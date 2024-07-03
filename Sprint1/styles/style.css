@@ -1,0 +1,509 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: white;
+}
+
+@font-face {
+    font-family: chentalle;
+    src: url(../fonts/Chentalle.ttf);
+}
+
+@font-face {
+    font-family: runters;
+    src: url(../fonts/Black\ Runters.ttf);
+}
+
+.mainbox {
+    width: 1390px;
+    height: 1220px; 
+    background-color: rgb(27, 133, 199);
+    border: 5px solid black; 
+    margin: 20px;
+    text-align: left;
+}
+  
+.menumainbox {
+    width: 1390px;
+    height: 2000px; 
+    background-color: rgb(27, 133, 199);
+    border: 5px solid black;
+    margin: 20px;
+    text-align: left;
+}
+
+.ordermainbox {
+    width: 1390px;
+    height: 1545px; 
+    background-color: rgb(27, 133, 199);
+    border: 5px solid black;
+    margin: 20px;
+    text-align: left;
+}
+
+.thankyoumainbox {
+    width: 1390px;
+    height: 700px; 
+    background-color: rgb(27, 133, 199);
+    border: 5px solid black;
+    margin: 20px;
+    text-align: left;
+}
+
+
+.headernav {
+    width: 700px;
+    height: 150px;
+    background-color: rgb(217, 217, 222); 
+    float: right;
+}
+
+.headernavlogo {
+    width: 276px;
+    height: 150px;
+    background-color: rgb(217, 217, 222);
+    padding-bottom: 30pt;
+}
+
+.headernavtext {
+    width: 408px;
+    height: 150px;
+    float: right;
+    background-color: rgb(217, 217, 222);
+}
+
+h2 {
+    font-size: 40pt;
+    font-family: chentalle;
+}
+
+h3{
+    font-size: 23pt;
+    font-family: chentalle;
+}
+
+h4{
+    font-size: 20pt;
+    font-family: chentalle;
+}
+
+
+nav {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 10pt;
+    
+}
+  
+nav a:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 10pt;
+}
+  
+nav a:hover {
+    color: black;
+    background-color: gr;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+img {
+    border-radius: 20pt;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(27, 133, 199);
+    margin: 10pt;
+    border-radius: 10pt;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 5pt;
+}
+
+.bodybox {
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 75pt;
+}
+
+.bodytextbox {
+    margin-left: 125px;
+    height: 150px;
+    width: 750px;
+    background-color: rgb(188, 183, 183);
+    border-radius: 45pt;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.infobodybox {
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 315px;
+    background-color: rgb(176, 220, 237);
+    text-align: center;
+}
+
+.picbox1 {
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 50pt;
+    background-color: pink;
+    float: left;
+}
+
+.picbox2 {
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-radius: 50pt;
+    background-color: pink;
+    float: right;
+}
+
+.menuminibox {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(176, 220, 237);
+}
+
+
+.menubox {
+    height: 375px;
+    width: 375px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 20pt;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.menubox2 {
+    height: 530px;
+    width: 375px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 20pt;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.menubox3 {
+    height: 610px;
+    width: 375px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 20pt;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.happyhourbox {
+    width: 420px;
+    height: 230px;
+    border-radius: 20pt;
+    background-color: rgb(217, 217, 222); 
+    margin-top: 1360px;
+    margin-left: 490px;
+    text-align: center;
+}
+
+.thankyoubox h3 {
+    font-size: 22pt;
+}
+
+p {
+    font-family: chentalle;
+    font-size: 10pt;
+}
+
+.footerbox1 {
+    margin-top: 80px;
+    width: 1380px;
+    padding-top: 5px;
+    height: 130px;
+    text-align: center;
+    background-color: rgb(217, 217, 222); 
+    float: left;
+}
+
+.footerbox2 {
+    margin-top: 80px;
+    width: 1380px;
+    padding-top: 5px;
+    height: 133px;
+    text-align: center;
+    background-color: rgb(217, 217, 222); 
+    float: left;
+}
+
+.footerbox3 {
+    margin-bottom: 50px;
+    width: 1380px;
+    padding-top: 5px;
+    height: 130px;
+    text-align: center;
+    background-color: rgb(217, 217, 222); 
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: runters;
+    font-size: 25pt;
+}
+
+.ordermiddlebox {
+    height: 570px;
+    width: 1000px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 70pt;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.ordermiddlebox h1 {
+    margin-left: 400px;
+    font-family: runters;
+    font-size: 20pt;
+}
+
+.ordermiddlebox h5 {
+    margin-top: 460px;
+    margin-left: 215px;
+    font-family: runters;
+    font-size: 15pt;
+}
+
+.orderfoodbox {
+    height: 80px;
+    width: 385px;
+    background-color: rgb(27, 133, 199);
+    border-radius: 20pt;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.orderfoodbox2 {
+    height: 80px;
+    width: 385px;
+    background-color: rgb(27, 133, 199);
+    border-radius: 20pt;
+    float: left;
+    text-align: center;
+    margin-left: 275px;
+    margin-top: 30px;
+}
+
+.yesornobox {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.orderfoodbox p {
+    margin: 0;
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    color: white;
+}
+
+.yesornobox2 {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.orderfoodbox2 p {
+    margin: 0;
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    color: white;
+}
+
+.quantitybox {
+    width: 84px;
+    height: 23px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+   color: black;
+}
+
+.quantitybox2 {
+    width: 84px;
+    height: 23px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.orderfoodbox label,
+.orderfoodbox input,
+.orderfoodbox p {
+    margin-bottom: 5px;
+}
+
+.ordernowbox {
+    height: 100px;
+    width: 370px;
+    background-color: rgb(176, 220, 237);
+    margin-top: 35px;
+    margin-left: 510px;
+    border-radius: 20pt;
+    text-align: center;
+}
+
+.ordernowbox h6 {
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 18px;
+    color: black
+}
+
+.orderinfobox {
+    width: 210px;
+    height: 100px;
+    background-color: rgb(27, 133, 199);
+    float: left;
+    margin-left: 550px;
+    padding-top: 10px;
+}
+
+.orderinfobox label {
+    display: block; 
+    margin-bottom: 2px;
+    color: white;
+    font-size: 30px;
+    border-radius: 20pt;
+    margin-top: 20px;
+}
+
+.orderinfobox input[type="text"] {
+    width: 130%;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+
+.orderinfobox h2 {
+    font-size: 25pt;
+}
+
+.thankyoubox {
+    height: 450px;
+    width: 750px;
+    background-color: rgb(176, 220, 237);
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 20pt;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+
+.thankyoubox h3 {
+    font-family: runters;
+    color: black
+}
+
+.submit {
+    width: 175px;
+    height: 75px;
+    background-color: rgb(176, 220, 237);
+    color: black;              
+    padding: 10px 20px;  
+    cursor: pointer;        
+    font-size: 25px;          
+    border-radius: 20pt;
+    margin-left: 47px;
+    margin-top: 10px;
+  }
+
+.submit:hover {
+    background-color: rgb(145, 209, 235);
+}
+
+#random-number {
+    background-color:  rgb(176, 220, 237); 
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 20px; 
+    width: 350px;
+    height: 50px;
+    font-size: 40px;
+    margin-left: 175px;
+    text-decoration: overline;
+    font-weight: bold;
+  }
+
+
+#alert {
+    width: 400px;
+    background-color: gb(27, 133, 199);
+    font-size: 20pt;
+    padding-right: 50px;
+    margin-right: 50px;
+    color: white;
+    font-family: runters;
+}
+  
+
+
+
