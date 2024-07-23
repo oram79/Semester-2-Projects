@@ -4,15 +4,9 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="header">
-      <div className='mainbox'>
-
-      </div>
-      <nav className="navbar">
-        
-        {/* Add navigation links or other header content here */}
       
-      </nav>
-
+      <h1>Dog Image Gallery</h1>
+      
     </header>
   );
 }
