@@ -8,7 +8,7 @@ function App() {
   const [imageCount, setImageCount] = useState(1); 
   const [fetchedImages, setFetchedImages] = useState([]); 
 
-  // Fetch all breeds on component mount
+  // Fetch all breeds from API
   useEffect(() => {
     const fetchBreeds = async () => {
       const response = await fetch('https://dog.ceo/api/breeds/list/all');

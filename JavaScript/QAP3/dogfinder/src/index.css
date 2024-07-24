@@ -22,11 +22,12 @@ code {
   margin-top: 100px;
 }
 
-.header h1 {
-  font-size: 35pt;
-  text-align: center;
-  color: black;
-  font-weight: bolder;
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    margin-left: 195px;
 }
 
 
@@ -39,13 +40,15 @@ code {
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 2px;
   text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .gallery-item {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .gallery-item img {
@@ -63,20 +66,21 @@ code {
 }
 
 .breed-selector-select {
-  width: 200px; /* Example width */
+  width: 200px; /* Dog breed drop-down menu */
   padding: 8px;
   font-size: 14px;
-  margin-left: 110px;
-  padding-left: 50px;
+  margin-left: 100px;
+  padding-left: 58px;
 }
 
 .breed-selector-input {
   font-size: 16px;
-  padding-left: 175px;
+  padding-left: 200px;
+  
 }
 
 .breed-selector-button {
-  margin-left: 140px;
+  margin-left: 150px;
   background-color: rgb(116, 160, 116);
   color: white;
   border: none;
@@ -94,5 +98,11 @@ code {
 label {
   width: 100px;
   margin-left: 160px;
+  margin-right: 160px;
 }
 
+.dogbox {
+  width: 450px;
+  height: 234px;
+  background-color: white;
+}
