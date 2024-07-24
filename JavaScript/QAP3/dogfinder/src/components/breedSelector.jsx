@@ -12,9 +12,11 @@ function BreedSelector({ breeds, selectedBreed, onBreedChange, imageCount, onIma
         ))}
       </select>
       <br />
-      <br />
       <label htmlFor="imageCount">Image Count:</label>
+      <br />
       <input
+      
+      
         className="breed-selector-input"
         type="number"
         id="imageCount"
