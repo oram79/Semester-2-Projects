@@ -14,16 +14,16 @@ code {
 }
 
 .header {
-  height: 400px;
-  width: 500px;
+  height: 700px;
+  width: 700px;
   background-color: rgb(116, 160, 116);
   border: 5px solid black;
-  margin-left: 450px;
+  margin-left: 375px;
   margin-top: 100px;
 }
 
 .header h1 {
-  font-size: 20pt;
+  font-size: 35pt;
   text-align: center;
   color: black;
   font-weight: bolder;
@@ -39,11 +39,13 @@ code {
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
+  text-align: center;
 }
 
 .gallery-item {
-  width: 75px;
+  height: 150px;
+  width: 150px;
 }
 
 .gallery-item img {
