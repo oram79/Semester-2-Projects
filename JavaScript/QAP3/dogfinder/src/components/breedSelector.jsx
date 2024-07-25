@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 
 function BreedSelector({ breeds, selectedBreed, onBreedChange, imageCount, onImageCountChange, onSubmit }) {
   return (

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BreedSelector from './components/breedSelector.jsx';
 import ImageGallery from './components/imageGallery';
+import { FaFacebook } from "react-icons/fa";
 
 function App() {
   const [breeds, setBreeds] = useState([]); 
@@ -8,7 +9,7 @@ function App() {
   const [imageCount, setImageCount] = useState(1); 
   const [fetchedImages, setFetchedImages] = useState([]); 
 
-  // Fetch all breeds from API
+  // Fetch all breeds from the API
   useEffect(() => {
     const fetchBreeds = async () => {
       const response = await fetch('https://dog.ceo/api/breeds/list/all');
@@ -39,14 +40,16 @@ function App() {
       }
       setFetchedImages(images);
     } else {
-      alert('Please select a breed and enter a valid image count (1-100)');
+      alert('You must select a breed & choose the number of images');
     }
   };
 
   return (
       
-        <div className="header">
-          <h1>Dog Image Gallery</h1>
+        <div className="mainbox">
+          <div className='header'>
+            <h1>Dog Image Gallery</h1>
+          </div>
           <BreedSelector
             breeds={breeds}
             selectedBreed={selectedBreed}
@@ -56,7 +59,18 @@ function App() {
             onSubmit={handleSubmit}
           />
           {fetchedImages.length > 0 && <ImageGallery images={fetchedImages} />}
+
+          <h3> Want to donate to help shelter dogs??</h3>
+          <h3>Donate Here!!</h3>
+          <div>
+          <a href="https://www.beaglepaws.com/" target="" rel="noopener noreferrer"></a>
+          </div>
+
+          <div className='footer'>
+           <h2>Logan's Dog Finder &copy; Since 2024</h2>
+          </div>
         </div>
+
       
   );
 }
