@@ -60,10 +60,14 @@ function App() {
           />
           {fetchedImages.length > 0 && <ImageGallery images={fetchedImages} />}
 
-          <h3> Want to donate to help shelter dogs??</h3>
-          <h3>Donate Here!!</h3>
+          <h3> Help Give a Dog a New Leash on Life!</h3>
           <div>
-          <a href="https://www.beaglepaws.com/" target="" rel="noopener noreferrer"></a>
+            <a href="https://www.beaglepaws.com/" target="_blank" rel="noopener noreferrer">
+              Donate Here!!
+            </a>
+          </div>
+          <div>
+          <a href="https://www.beaglepaws.com/" target="" rel=""></a>
           </div>
 
           <div className='footer'>
