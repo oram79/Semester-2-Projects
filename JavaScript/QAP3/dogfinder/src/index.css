@@ -61,6 +61,7 @@ h3 {
   gap: 5px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 
@@ -98,7 +99,7 @@ h3 {
 }
 
 .breed-selector-button {
-  margin-left: 145px;
+  margin-left: 139px;
   background-color: rgb(116, 160, 116);
   color: white;
   border: none;
