@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import BreedSelector from './components/breedSelector.jsx';
 import ImageGallery from './components/imageGallery';
-import { FaFacebook } from "react-icons/fa";
+import { GoArrowRight } from "react-icons/go";
+import { GoArrowLeft } from "react-icons/go";
 
 function App() {
   const [breeds, setBreeds] = useState([]); 
@@ -9,7 +10,7 @@ function App() {
   const [imageCount, setImageCount] = useState(1); 
   const [fetchedImages, setFetchedImages] = useState([]); 
 
-  // Fetch all breeds from the API
+  // Uses the API to fetch images for the user
   useEffect(() => {
     const fetchBreeds = async () => {
       const response = await fetch('https://dog.ceo/api/breeds/list/all');
@@ -63,7 +64,7 @@ function App() {
           <h3> Help Give a Dog a New Leash on Life!</h3>
           <div>
             <a href="https://www.beaglepaws.com/" target="_blank" rel="noopener noreferrer">
-              Donate Here!!
+            <GoArrowRight /> Donate Here!! <GoArrowLeft />
             </a>
           </div>
           <div>
