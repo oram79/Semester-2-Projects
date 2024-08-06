@@ -1,0 +1,4 @@
+///// Aug 6 2024 /////
+
+first day of project, decided to use vanilla JS rather then React.
+figma design of portfolio is complete and now will start to incorperate.
