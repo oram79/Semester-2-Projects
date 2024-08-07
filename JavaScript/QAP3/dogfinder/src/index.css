@@ -82,15 +82,18 @@ h3 {
 
 .breed-selector-select {
   width: 175px; /* Dog breed drop-down menu */
-  padding: 8px;
   font-size: 14px;
   text-align: center;
   margin-left: 115px;
+  text-decoration: none;
+  border-radius: 20pt;
 }
 
 .breed-selector-input {
   font-size: 16px;
   text-align: center;
+  text-decoration: none;
+  border-radius: 20pt;
 }
 
 .breed-selector-button {
