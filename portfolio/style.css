@@ -245,7 +245,6 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
     background: rgb(53, 53, 53);
-    color: white;
 }
 
 .btn-color-1:hover {
@@ -254,9 +253,10 @@ section {
 
 .btn-color-2 {
     background: none;
+    text-decoration: none;
 }
 
-.btn-color-2:hover {
+.btn-color-2 {
     border: black 0.1rem solid;
 }
 .btn-container {
@@ -381,7 +381,7 @@ article .icon {
     border-color: rgb(163,163,163);
 }
 
-h3 {
+h4 {
     font-size: medium;
     color: grey;
     margin-bottom: 2rem;
@@ -433,9 +433,14 @@ h3 {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    gap: 5rem;
 }
 
 footer p {
     text-align: center;
+}
+
+.top {
+    display: flex;
 }
 
