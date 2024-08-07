@@ -367,8 +367,8 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 300px;
+    height: 300px;
 }
 
 .project-title {
@@ -379,6 +379,12 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163,163,163);
+}
+
+h3 {
+    font-size: medium;
+    color: grey;
+    margin-bottom: 2rem;
 }
 
 /* Contact Page */
@@ -432,5 +438,4 @@ footer {
 footer p {
     text-align: center;
 }
-
 
