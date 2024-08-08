@@ -1,5 +1,7 @@
 /* General */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
 
 
 * {
@@ -8,7 +10,8 @@
 }
 
 body {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Gupter", serif;
+    font-weight: 600;
     background-color: rgb(204, 202, 202);
 }
 
