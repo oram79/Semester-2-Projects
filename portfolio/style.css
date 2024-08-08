@@ -242,7 +242,7 @@ section {
     cursor: pointer;
 }
 
-.btn-color-1,
+.btn-color-1:hover,
 .btn-color-2:hover {
     background: rgb(53, 53, 53);
 }
@@ -253,10 +253,9 @@ section {
 
 .btn-color-2 {
     background: none;
-    text-decoration: none;
 }
 
-.btn-color-23 {
+.btn-color-2 {
     border: black 0.1rem solid;
 }
 .btn-container {
