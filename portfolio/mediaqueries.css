@@ -1,3 +1,6 @@
+/* all styling that will let the webpage adjust to the users device, mainly for phones or tablets */
+
+
 @media screen and (max-width: 1400px) {
    #profile {
     height: 83vh;
