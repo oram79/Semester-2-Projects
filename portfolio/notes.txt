@@ -2,3 +2,10 @@
 
 first day of project, decided to use vanilla JS rather then React.
 figma design of portfolio is complete and now will start to incorperate.
+
+///// Aug 8th /////
+
+1. need to add my resume to "download CV"
+2. add proper profile pic
+3. fix sizing issues
+4. look over code and make any changes as needed
